@@ -1,0 +1,13 @@
+{
+  "name": "floristry",
+  "version": "1.0.0",
+  "description": "* Студент: [{{userName}}]({{userProfile}}). * Наставник: `Неизвестно`.",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
