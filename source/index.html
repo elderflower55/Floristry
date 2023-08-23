@@ -1,17 +1,21 @@
 <!DOCTYPE html>
-<html class="html" lang="ru">
+
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title class="html__title">Весна всегда</title>
+    <title class="page__title">Весна всегда</title>
     <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
   </head>
 
-  <body class="page-body">
+  <body class="page__body">
 
-      <header class="page-header">
+      <header class="page__header">
         <div class="content-wrapper">
-          <section class="page-header__wrapper">
+          <section class="page-header">
 
             <div class="logo">
               <a class="logo__link" href="#">
@@ -22,7 +26,7 @@
             <nav class="main-nav">
               <ul class="main-nav__list">
                 <li class="main-nav__item">
-                  <a class="main-nav__link main-nav__link--active">Услуги</a>
+                  <a class="main-nav__link" href="#catalog">Услуги</a>
                 </li>
                 <li class="main-nav__item">
                   <a class="main-nav__link" href="#sales">Акции</a>
@@ -39,24 +43,21 @@
               </ul>
             </nav>
 
-            <div class="contact-phone">
+            <span class="contact-phone">
               <a class="contact-phone__link" href="tel:+79163921777">+7 (916) 392 17 77</a>
-            </div>
+            </span>
 
           </section>
         </div>
       </header>
 
-      <main class="page-main">
+      <main class="page__main">
         <div class="content-wrapper">
 
           <section class="main-header">
-            <h1 class="page-main__title">Флористика с душой</h1>
-            <div class="main-header-navigation-button">
-              <a class="main-header-navigation-button__button button">Смотреть работы</a>
-            </div>
-            <div class="main-header-navigations-elements">
-              <div class="main-header-navigations-elements__social social">
+            <h1 class="main-header__title header">Флористика с душой</h1>
+            <div class="main-header__navigations-elements">
+              <div class="social">
                 <ul class="social__list">
                   <li class="social__item">
                     <a class="social__link">
@@ -80,17 +81,21 @@
                   </li>
                 </ul>
               </div>
-              <img class="main-header-navigations-elements__mouse-icon" src="img/icons/mouse-icon.png" width="36" height="56">
-              <div class="main-header-navigations-elements__navigation-catalog-arrow navigation-catalog-arrow">
-                <a class="navigation-catalog-arrow__link" href="#">
+              <div class="main-header__navigation-button">
+                <a class="main-header--navigation-button button">Смотреть работы</a>
+                <img class="main-header__navigations-elements--mouse-icon" src="img/icons/mouse-icon.png" width="36" height="56">
+              </div>
+              <div class="main-header__navigations-elements--catalog-arrow">
+                <a class="main-header__navigations-elements--arrow-link" href="#">
                   Смотреть каталог
-                  <img class="navigation-catalog-arrow__image" src="img/icons/arrow.svg" width="14" height="14">
+                  <img class="main-header__navigations-elements--arrow-image" src="img/icons/arrow.svg" width="14" height="14">
                 </a>
               </div>
             </div>
           </section>
 
           <section class="catalog">
+            <a name="catalog"></a>
             <h3 class="catalog__title">Каталог услуг</h2>
             <div class="catalog__wrapper">
               <ol class="catalog__list">
@@ -276,7 +281,7 @@
         </div>
       </main>
 
-      <footer class="page-footer">
+      <footer class="page__footer">
 
         <div class="content-wrapper">
           <ul class="page-footer__list">
