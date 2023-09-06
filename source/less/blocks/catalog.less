@@ -1,0 +1,35 @@
+.catalog {
+  padding: 0 85px;
+}
+
+.catalog__title {
+  margin: 0;
+  font: 30px/normal @font-weight-normal;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 116px;
+}
+
+.catalog__title::after {
+  content: "";
+  width: 85px;
+  height: 2px;
+  background-color: @basic-white;
+  position: absolute;
+  bottom: -22px;
+  left: 47%;
+}
+
+.catalog__title::before {
+  content: "Каталог услуг";
+  color: #ffffff;
+  font: 154px / normal normal;
+  letter-spacing: 13.2px;
+  opacity: 0.03;
+  position: absolute;
+  top: 24px;
+  left: 0;
+  text-align: center;
+}
